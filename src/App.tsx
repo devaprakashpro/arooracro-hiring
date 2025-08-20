@@ -20,8 +20,7 @@ import {
   Instagram,
   Twitter
 } from 'lucide-react';
-// import { Analytics } from '@vercel/analytics/next';
-import { Analytics } from "@vercel/analytics/next"
+
 
 function App() {
   return (
@@ -53,7 +52,7 @@ function App() {
           </div>
         </div>
       </header>
-      <Analytics />
+  
 
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 overflow-hidden bg-dark-gradient">
