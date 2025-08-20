@@ -20,9 +20,11 @@ import {
   Instagram,
   Twitter
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/next';
 
 function App() {
   return (
+    
     <div className="min-h-screen bg-dark-charcoal text-silver">
       {/* Header */}
       <header className="bg-metallic-gradient shadow-2xl border-b border-metallic-gray/50 sticky top-0 z-50 backdrop-blur-sm ">
@@ -50,6 +52,7 @@ function App() {
           </div>
         </div>
       </header>
+      <Analytics />
 
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 overflow-hidden bg-dark-gradient">
