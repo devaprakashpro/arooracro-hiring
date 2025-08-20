@@ -20,7 +20,8 @@ import {
   Instagram,
   Twitter
 } from 'lucide-react';
-import { Analytics } from '@vercel/analytics/next';
+// import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
